@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Media Pages</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="just tables.html">Course table</a></li>
+            <li><a href="form.html">Form page</a></li>
+            <li><a href="media pages.html">Media</a></li>
+        </ul>
+    </nav>
+
+    <section class="media-container">
+        <h1>Media Tags Example</h1>
+        <!-- Image using the picture tag -->
+        <div class="picture-container">
+            <picture>
+                <source srcset="assets/image/Large.jpg" media="(min-width: 1024px)" width="1200" height="800">
+                <source srcset="assets/image/Medium.jpg" media="(min-width: 768px)" width="800" height="550">
+                <source srcset="assets/image/Small.jpg" media="(max-width: 767px)" width="400" height="250">
+                <img src="/assets/image/Default.jpg" alt="this is a picture" width="400" height="250">
+            </picture>
+        </div>
+        <!-- Embedding media content using the embed element -->
+        <div class="embed-container">
+            <iframe width="690" height="388" src="https://www.youtube.com/embed/QTB1YiWxxKU"
+                title="STOP WASTING TIME - Best Motivational Video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- Audio using the audio tag -->
+        <div class="audio-container">
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <!-- Video using the video tag -->
+        <div class="video-container">
+            <video controls>
+                <source src="/assets/video/video1.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </div>
+    </section>
+
+</body>
+
+</html>

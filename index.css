@@ -1,0 +1,125 @@
+*{
+       text-decoration: none;
+       scroll-behavior: smooth;
+       font-weight: 400;
+       font-style: normal;
+       font-size: large;     
+}
+            
+body {
+       margin: auto;
+       overflow-y: scroll;
+       max-width: 1000px;
+       border: 1px solid grey;
+       border-radius: 10px;
+       box-shadow: 3px 3px 10px grey;
+       padding-bottom: 5px;
+      
+     }
+.Name{
+       color: rgb(2, 19, 82);
+       font-weight: bold;
+       font-size: larger;
+     }
+
+.nav-bar{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 40px;
+       background-color: gray;
+       margin: 0;      
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    border: 1px solid rgb(2, 19, 82);
+    border-radius: 10px;
+    background-color: rgb(104, 224, 216);
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+li a {
+       color: rgb(2, 19, 82);
+       text-transform: uppercase;
+       letter-spacing: 2px;      
+}
+
+li:hover{
+       background-color: rgb(2, 19, 82);
+       border-color:rgb(104, 224, 216); 
+}
+a:hover{
+       color:rgb(104, 224, 216) }
+
+
+#digital{
+       font-size: 2rem;
+       border: 2px solid lightgray;
+       padding: 15px;
+       display: inline-block;
+       background-color: white;
+       border-radius: 10px;
+       cursor: pointer;
+}
+         
+.intro{background-color: rgb(236, 233, 108);
+       color: rgb(43, 146, 237);
+       font-size: 1rem;
+}
+.id{
+       font-size: 1.5rem;
+       cursor: pointer;
+       color: rgb(44, 221, 124);
+
+}
+
+.myname{
+       background-color: rgb(27, 68, 150);
+       color: rgb(171, 117, 240);
+       font-size: 1rem;
+}
+.tech{
+       background-color: rgb(236, 233, 108);
+       color: rgb(43, 146, 237);
+       font-size: 1rem;
+}
+
+#who1{
+       font-size: 2rem;
+       border: 2px solid lightgray;
+       padding: 15px;
+       display: inline-block;
+       background-color: white;
+       border-radius: 10px;
+       cursor: pointer;
+}
+
+#who2{
+       font-size: 2rem;
+       border: 2px solid lightgray;
+       padding: 15px;
+       display: inline-block;
+       background-color: white;
+       border-radius: 10px;
+       cursor: pointer;
+
+}
+
+.whyalt{
+       background-color: rgb(27, 68, 150);
+       color: rgb(171, 117, 240);
+       font-size: 1rem;
+}
+
+#who3{
+       font-size: 2rem;
+       border: 2px solid lightgray;
+       padding: 15px;
+       display: inline-block;
+       background-color: white;
+       border-radius: 10px;
+       cursor: pointer;
+}
